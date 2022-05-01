@@ -4,7 +4,7 @@ function ValidateEmail(mail) {
 
 const validate = ({ name, email, password }) => {
   if (name && email && password) {
-    if (!/[^a-zA-Z]/.test(name)) {
+    if (!/[^a-zA-Z ]/.test(name)) {
       if (ValidateEmail(email)) {
         if (password.length >= 8) {
           return true;
