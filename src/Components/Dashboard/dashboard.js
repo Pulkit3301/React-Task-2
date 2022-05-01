@@ -43,7 +43,7 @@ const Dashboard = () => {
         </div>
         <form className="form">
           <div className="form-control">
-            <label htmlFor="query">Query : </label>
+            <label htmlFor="query">City Name : </label>
             <input
               type="text"
               id="query"
